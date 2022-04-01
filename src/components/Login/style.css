@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+/* VERSÃO MOBILE SEM AQUELA PARTE DE JANELAS COM DEGRADE NO FUNDO */
+.container-start {
+    width: 100%;
+    height: 100vh;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo-start-white {
+    text-align: start;
+}
+
+.text-start {
+    width: 350px;
+}
+
+.text-start h1 {
+    font-size: 38px;
+    text-align: start;
+}
+
+.text-btn {
+    padding: 5px;
+}
+
+.text-btn p {
+    font-size: 16px;
+    text-align: start;
+    font-weight: 300;
+}
+
+.btn {
+    margin-top: 30px;
+    text-align: start;
+}
+
+.btn button {
+    width: 241px;
+    height: 48px;
+    background-color: #FD377E;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.window-img {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .window-img {
+        display: block;
+        margin-right: 10px;
+    }
+    .window-img img {
+        width: 100%;
+    }
+}
